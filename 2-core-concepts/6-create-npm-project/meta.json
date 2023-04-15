@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/6-create-npm-project/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "2. Getting started with Playwright Automation Core concepts",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "6. Create npm Project and install Playwright dependencies for testing",
+    "video.length": 7,
+    "time.comsuming": 33,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-15T02:41:00Z",
     "tag": [
-      "Playwright","core"
+      "Playwright","core","project","files","init"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109880#content",
+    "description": "Create playwright project and intro the init files."
   }
 
