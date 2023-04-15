@@ -1,8 +1,7 @@
 import { test } from "@playwright/test";
 
-test("First Playwright test", async () => {
-  // playwright code --
-  // step 1 - open browser
-  // step 2 - enter username/password 2 seconds
-  // step 3 - click
+test("First Playwright test", async ({ browser, page }) => {
+  // const context = await browser.newContext();
+  // const page = await context.newPage();
+  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
 });

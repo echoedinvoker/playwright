@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/7-test-annotation-n-async/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "2. Getting started with Playwright Automation Core concepts",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "7. Importance of Playwright Test Annotation and async await understanding",
+    "video.length": 9,
+    "time.comsuming": 28,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-15T03:12:00Z",
     "tag": [
-      "Playwright","core"
+      "Playwright","core","async","annotation"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109898#content",
+    "description": "Intro of Playwright test annotation, where we actually written test codes."
   }
 
