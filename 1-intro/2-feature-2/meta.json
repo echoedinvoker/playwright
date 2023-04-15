@@ -1,18 +1,18 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/1-intro/2-feature-2/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "1. Introduction to Playwright Automation & Course expectations",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "2. Introduction to Playwright Feature - Part 2",
+    "video.length": 9,
+    "time.comsuming": 27,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-15T01:46:04Z",
     "tag": [
-      "Playwright","intro"
+      "Playwright","intro","feature"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109810#content",
+    "description": "Intro of features of Playwright."
   }
 
