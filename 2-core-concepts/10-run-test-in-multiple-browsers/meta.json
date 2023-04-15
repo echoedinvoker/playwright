@@ -1,18 +1,26 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/10-run-test-in-multiple-browsers/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "2. Getting started with Playwright Automation Core concepts",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "10. Running Playwright tests in multiple browsers - chrome, Firefox 7 Webkit",
+    "video.length": 11,
+    "time.comsuming": 46,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-15T06:04:51Z",
     "tag": [
-      "Playwright","core"
+        "Playwright",
+        "core",
+        "browser",
+        "chrome",
+        "firefox",
+        "safari",
+        "webkit",
+        "assertion",
+        "info",
+        "page"
     ],
-    "video.link": "",
-    "description": ""
-  }
-
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109964#content",
+    "description": "Explain and use assertion to do our first test."
+}

@@ -2,7 +2,7 @@
     "category-v2.single.toJob": "Playwright",
     "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "2. Getting started with Playwright Automation Core concepts",
+    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -10,9 +10,10 @@
     "lecturer.name.last": "Shetty",
     "register.time": "",
     "tag": [
-      "Playwright","core"
+        "Playwright",
+        "methods",
+        "basic"
     ],
     "video.link": "",
     "description": ""
-  }
-
+}
