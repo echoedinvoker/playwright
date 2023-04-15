@@ -1,18 +1,23 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "2. Getting started with Playwright Automation Core concepts",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-      "Playwright","core"
-    ],
-    "video.link": "",
-    "description": ""
-  }
-
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/8-browser-context-n-page-fixtures/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "2. Getting started with Playwright Automation Core concepts",
+  "section": "8. What is browser context and Page fixtures in Playwright? - Example",
+  "video.length": 14,
+  "time.comsuming": 43,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-15T04:14:00Z",
+  "tag": [
+    "Playwright",
+    "core",
+    "fixture",
+    "browser",
+    "page",
+    "context",
+    "goto"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109930#content",
+  "description": "Intro fixtures 'browser' and 'page', and explain what is context."
+}
