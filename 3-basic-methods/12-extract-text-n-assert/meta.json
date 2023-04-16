@@ -1,19 +1,23 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "methods",
-        "basic"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/12-extract-text-n-assert/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+  "section": "12. Extracting the text from browser and inserting valid expect assesrtions in test",
+  "video.length": 13,
+  "time.comsuming": 57,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-15T08:06:20Z",
+  "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "extract",
+    "incorrect",
+    "wait",
+    "lator"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110022#content",
+  "description": "Assertion of login result."
 }

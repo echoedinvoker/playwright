@@ -10,6 +10,8 @@
 
 ![Alt locator incorrect msg element, but only when it show](pic/03.jpg)
 
+- In other tools such as selenium, it is necessary to add wait codes here and things will become complex, but Playwright does not need to.
+
 - We cannot get hidden incorrect msg element, this is tricky...
 
 ## **method 'locator' don't return promise**

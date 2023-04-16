@@ -1,14 +1,23 @@
 import { expect, test } from "@playwright/test";
 
 test("First Playwright test", async ({ page }) => {
-  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
-  await page.locator("#username").type("matt");
-  await page.locator("#password").type("123");
-  await page.locator("#signInBtn").click();
+  const username = page.locator("#username");
+  const password = page.locator("#password");
+  const signInBtn = page.locator("#signInBtn");
 
-  // const errorMsg = await page.locator("[style*='none']").textContent();
+  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+  await username.type("matt");
+  await password.type("123");
+  await signInBtn.click();
+
   const errorMsg = page.locator("[style*='none']");
   console.log(await errorMsg.textContent());
+  expect(errorMsg).toContainText("Incorrect");
 
-  expect(errorMsg).toContainText("Incorrectxxxx");
+  await username.fill("rahulshettyacademy");
+  await password.fill("learning");
+  await signInBtn.click();
+
+  console.log(await page.locator(".card-title a").first().textContent());
+  console.log(await page.locator(".card-title a").nth(0).textContent());
 });
