@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test("First Playwright test", async ({ page }) => {
+test.only("First Playwright test", async ({ page }) => {
   const username = page.locator("#username");
   const password = page.locator("#password");
   const signInBtn = page.locator("#signInBtn");
@@ -46,7 +46,7 @@ test("UI test", async ({ page }) => {
   // await page.pause();
 });
 
-test.only("Child window handling", async ({ browser }) => {
+test("Child window handling", async ({ browser }) => {
   const context = await browser.newContext();
   const page = await context.newPage();
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
