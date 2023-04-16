@@ -1,19 +1,26 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "methods",
-        "basic"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/13-locator-extract-multi-webel/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+  "section": "13. How to work with locators which extract multiple webelements in page",
+  "video.length": 11,
+  "time.comsuming": 50,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-16T02:16:22Z",
+  "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "multiple",
+    "element",
+    "first",
+    "nth",
+    "textContent",
+    "refactor",
+    "locator"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110034?start=0#content",
+  "description": "Explain how to get a single element from a locator when it contains multiple elements."
 }

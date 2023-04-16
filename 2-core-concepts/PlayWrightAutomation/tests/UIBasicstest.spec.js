@@ -4,6 +4,7 @@ test("First Playwright test", async ({ page }) => {
   const username = page.locator("#username");
   const password = page.locator("#password");
   const signInBtn = page.locator("#signInBtn");
+  const cardTitles = page.locator(".card-title a");
 
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
   await username.type("matt");
@@ -18,6 +19,7 @@ test("First Playwright test", async ({ page }) => {
   await password.fill("learning");
   await signInBtn.click();
 
-  console.log(await page.locator(".card-title a").first().textContent());
-  console.log(await page.locator(".card-title a").nth(0).textContent());
+  // console.log(await cardTitles.first().textContent());
+  // console.log(await cardTitles.nth(0).textContent());
+  console.log(await cardTitles.allTextContents());
 });
