@@ -38,5 +38,10 @@ test.only("UI test", async ({ page }) => {
 
   expect(await page.locator("#terms").isChecked()).toBeFalsy();
 
+  await expect(page.locator("[href*='documents-request']")).toHaveAttribute(
+    "class",
+    "blinkingText"
+  );
+
   // await page.pause();
 });

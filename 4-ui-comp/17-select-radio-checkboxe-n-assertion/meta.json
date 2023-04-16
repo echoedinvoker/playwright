@@ -1,18 +1,25 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "ui"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/4-ui-comp/17-select-radio-checkboxe-n-assertion/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
+  "section": "17. Selecting radio buttons, Checkboxes and implement expect assertions",
+  "video.length": 7,
+  "time.comsuming": 29,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-16T06:39:47Z",
+  "tag": [
+    "Playwright",
+    "ui",
+    "assertion",
+    "radio",
+    "check",
+    "checkbox",
+    "isCheck",
+    "toBeChecked",
+    "toBeFalcy"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110444#content",
+  "description": "Explain the assertions about radio buttons and checkboxes."
 }
