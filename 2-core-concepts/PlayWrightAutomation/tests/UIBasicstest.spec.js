@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.only("First Playwright test", async ({ page }) => {
+test("First Playwright test", async ({ page }) => {
   const username = page.locator("#username");
   const password = page.locator("#password");
   const signInBtn = page.locator("#signInBtn");
@@ -17,7 +17,6 @@ test.only("First Playwright test", async ({ page }) => {
 
   await username.fill("rahulshettyacademy");
   await password.fill("learning");
-  // await signInBtn.click();
 
   await Promise.all([page.waitForNavigation(), signInBtn.click()]);
 
@@ -42,8 +41,6 @@ test("UI test", async ({ page }) => {
     "class",
     "blinkingText"
   );
-
-  // await page.pause();
 });
 
 test("Child window handling", async ({ browser }) => {
@@ -62,6 +59,4 @@ test("Child window handling", async ({ browser }) => {
   console.log(username);
 
   await page.locator("#username").type(username);
-
-  await page.pause();
 });

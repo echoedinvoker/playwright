@@ -1,18 +1,21 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/5-tools/20-inspector-n-debug/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "5. Learn Playwright Inspectors, Trace Viewsers & Codegen tools with Demo examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "20. What is Playwright Inspector? And how to debug the playwright script",
+    "video.length": 9,
+    "time.comsuming": 39,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-16T08:59:41Z",
     "tag": [
         "Playwright",
-        "tool"
+        "tool",
+        "debug",
+        "inspector",
+        "picker"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110516#content",
+    "description": "Explain how to use debug mode and inspector."
 }

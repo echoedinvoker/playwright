@@ -6,7 +6,10 @@ const config = {
   },
   reporter: "html",
   use: {
-    browserName: "webkit",
+    browserName: "chromium",
+    headless: false,
+    screenshot: "on",
+    trace: "retain-on-failure", // off, on
   },
 };
 
