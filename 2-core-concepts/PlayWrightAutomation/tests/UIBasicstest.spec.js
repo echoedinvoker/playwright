@@ -25,11 +25,18 @@ test("First Playwright test", async ({ page }) => {
 });
 
 test.only("UI test", async ({ page }) => {
+  const radioUser = page.locator(".radiotextsty").last();
+
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
   await page.locator("select.form-control").selectOption("consult");
 
-  await page.locator(".radiotextsty").last().click();
+  await radioUser.click();
   await page.locator("#okayBtn").click();
 
-  await page.pause();
+  console.log(await radioUser.isChecked());
+  await expect(radioUser).toBeChecked();
+
+  expect(await page.locator("#terms").isChecked()).toBeFalsy();
+
+  // await page.pause();
 });
