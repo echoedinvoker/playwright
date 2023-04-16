@@ -1,19 +1,26 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/15-wait-dynamic/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "15. Techniques to wait dynamically for new page in Service based applications",
+    "video.length": 21,
+    "time.comsuming": 73,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-16T04:19:21Z",
     "tag": [
         "Playwright",
         "methods",
-        "basic"
+        "basic",
+        "custom",
+        "wait",
+        "service",
+        "api",
+        "call",
+        "navigation",
+        "network"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110360#content",
+    "description": "Explain what a service based application is and how to do custom-wait for it."
 }

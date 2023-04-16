@@ -23,3 +23,13 @@ test("First Playwright test", async ({ page }) => {
 
   console.log(await cardTitles.allTextContents());
 });
+
+test.only("UI test", async ({ page }) => {
+  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+  await page.locator("select.form-control").selectOption("consult");
+
+  await page.locator(".radiotextsty").last().click();
+  await page.locator("#okayBtn").click();
+
+  await page.pause();
+});

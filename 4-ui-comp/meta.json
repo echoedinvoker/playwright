@@ -2,7 +2,7 @@
     "category-v2.single.toJob": "Playwright",
     "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+    "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -11,8 +11,7 @@
     "register.time": "",
     "tag": [
         "Playwright",
-        "methods",
-        "basic"
+        "ui"
     ],
     "video.link": "",
     "description": ""
