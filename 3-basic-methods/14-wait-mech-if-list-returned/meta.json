@@ -1,19 +1,25 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "methods",
-        "basic"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/14-wait-mech-if-list-returned/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+  "section": "14. Understanding how wait mechanism works if list of elements are returned",
+  "video.length": 10,
+  "time.comsuming": 28,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-16T02:48:59Z",
+  "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "wait",
+    "array",
+    "allTextContents",
+    "list",
+    "multiple",
+    "auto-wait"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110354#content",
+  "description": "Description of Playwright's auto-wait mechanism by the action allTextContents."
 }

@@ -17,9 +17,9 @@ test("First Playwright test", async ({ page }) => {
 
   await username.fill("rahulshettyacademy");
   await password.fill("learning");
-  await signInBtn.click();
+  // await signInBtn.click();
 
-  // console.log(await cardTitles.first().textContent());
-  // console.log(await cardTitles.nth(0).textContent());
+  await Promise.all([page.waitForNavigation(), signInBtn.click()]);
+
   console.log(await cardTitles.allTextContents());
 });
