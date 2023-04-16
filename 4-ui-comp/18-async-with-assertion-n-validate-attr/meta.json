@@ -1,18 +1,23 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "ui"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/4-ui-comp/17-select-radio-checkboxe-n-assertion/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
+  "section": "18. Using async await with Assertion and understand validating the attributes",
+  "video.length": 8,
+  "time.comsuming": 26,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-16T07:09:25Z",
+  "tag": [
+    "Playwright",
+    "ui",
+    "await",
+    "assertion",
+    "validate",
+    "attribute",
+    "blink"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110470#content",
+  "description": "Explain the difference between the position of await and expect, and asserting if the link is blinking."
 }

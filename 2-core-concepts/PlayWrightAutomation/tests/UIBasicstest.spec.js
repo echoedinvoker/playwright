@@ -24,7 +24,7 @@ test("First Playwright test", async ({ page }) => {
   console.log(await cardTitles.allTextContents());
 });
 
-test.only("UI test", async ({ page }) => {
+test("UI test", async ({ page }) => {
   const radioUser = page.locator(".radiotextsty").last();
 
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
@@ -44,4 +44,24 @@ test.only("UI test", async ({ page }) => {
   );
 
   // await page.pause();
+});
+
+test.only("Child window handling", async ({ browser }) => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+
+  const [newPage] = await Promise.all([
+    context.waitForEvent("page"),
+    page.locator("[href*='documents-request']").click(),
+  ]);
+
+  const text = await newPage.locator(".red").textContent();
+  const arrayTest = text.split("@");
+  const username = arrayTest[1].split(" ")[0];
+  console.log(username);
+
+  await page.locator("#username").type(username);
+
+  await page.pause();
 });
