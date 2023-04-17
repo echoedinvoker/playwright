@@ -1,20 +1,24 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/24-dynamic-find-product/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "24. Write the Script to dynamically find the product to buy from list of products",
+    "video.length": 15,
+    "time.comsuming": 49,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-17T00:52:36Z",
     "tag": [
         "Playwright",
         "end",
         "practice",
-        "exercie"
+        "exercie",
+        "loop",
+        "locator",
+        "nest",
+        "text"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110598#content",
+    "description": "Automatically find the desired product from the product list and add it to the shopping cart."
 }
