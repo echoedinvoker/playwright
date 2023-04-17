@@ -1,18 +1,24 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "5. Learn Playwright Inspectors, Trace Viewsers & Codegen tools with Demo examples",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "tool"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/5-tools/21-codegen/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "5. Learn Playwright Inspectors, Trace Viewsers & Codegen tools with Demo examples",
+  "section": "22. Detailed view of Test Traces, HTML reports, logs & Screenshots for test results",
+  "video.length": 13,
+  "time.comsuming": 55,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-16T09:57:31Z",
+  "tag": [
+    "Playwright",
+    "tool",
+    "trace",
+    "html",
+    "configuration",
+    "report",
+    "demo",
+    "debug"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110546#content",
+  "description": "Description How to use Trace Showcase."
 }
