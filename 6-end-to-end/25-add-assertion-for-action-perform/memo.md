@@ -28,6 +28,8 @@
 
 ### _Risk 2: Products in the cart appears delayed_
 
+> And notice that isVisible action cannot trigger auto-wait mech.
+
 ![Alt risk 2: products in the cart will delayed appear](pic/10.jpg)
 
 ![Alt make sure previous page don't have same element](pic/11.jpg)

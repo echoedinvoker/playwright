@@ -1,20 +1,26 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "end",
-        "practice",
-        "exercie"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/25-add-assertion-for-action-perform/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
+  "section": "25. Add assertion for the actions performed and implement necessary Sync steps",
+  "video.length": 18,
+  "time.comsuming": 78,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-17T02:14:17Z",
+  "tag": [
+    "Playwright",
+    "end",
+    "practice",
+    "exercie",
+    "waitfor",
+    "text",
+    "has-text",
+    "phuedo",
+    "class",
+    "assertion"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110610#content",
+  "description": "Use assertion instead of the naked eye to see if the added items are in the shopping cart."
 }

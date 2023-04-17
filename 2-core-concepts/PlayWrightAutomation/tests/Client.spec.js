@@ -13,12 +13,9 @@ test("First Playwright test", async ({ page }) => {
 
   const count = await cardBody.count();
   for (let i = 0; i < count; i++) {
-    if (
-      (await cardBody.nth(i).locator("b").textContent()) === productName ||
-      (await cardBody.nth(i).locator("b").textContent()) === "zara coat 3"
-    ) {
+    if ((await cardBody.nth(i).locator("b").textContent()) === productName) {
       await cardBody.nth(i).locator("text=  Add To Cart").click();
-      //break;
+      break;
     }
   }
 
@@ -27,4 +24,22 @@ test("First Playwright test", async ({ page }) => {
   await page.locator("li h3").first().waitFor();
   const bool = await page.locator("h3:has-text('adidas original')").isVisible();
   expect(bool).toBeTruthy();
+
+  await page.locator("[type='button']").last().click();
+  await page.locator("[placeholder*='Country']").type("tai", { delay: 100 });
+
+  const dropdown = page.locator("section.ta-results");
+  await dropdown.waitFor();
+
+  const options = dropdown.locator("button.ta-item");
+  const optionsCount = await options.count();
+  for (let i = 0; i < optionsCount; i++) {
+    const text = await options.nth(i).textContent();
+    if (text === " Taiwan, Province of China") {
+      await options.nth(i).click();
+      break;
+    }
+  }
+
+  await page.pause();
 });
