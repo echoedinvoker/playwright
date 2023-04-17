@@ -2,7 +2,7 @@
     "category-v2.single.toJob": "Playwright",
     "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -11,6 +11,7 @@
     "register.time": "",
     "tag": [
         "Playwright",
+        "api"
     ],
     "video.link": "",
     "description": ""
