@@ -1,20 +1,23 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "end",
-        "practice",
-        "exercie"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/28-teacher-answer/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
+  "section": "28. Dynamically find the order from OderHistory page using Playwright Script logic",
+  "video.length": 16,
+  "time.comsuming": 26,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-17T07:52:23Z",
+  "tag": [
+    "Playwright",
+    "end",
+    "practice",
+    "exercie",
+    "compare",
+    "answer",
+    "difference"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110650#content",
+  "description": "Compare the differences between our test scripts and those written by our teachers."
 }

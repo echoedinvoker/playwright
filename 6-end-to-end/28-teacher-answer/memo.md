@@ -1,5 +1,7 @@
 ## **Difference between me and teacher**
 
+> We already complete whole test script by our self, now to compare it with teacher's solution.
+
 ![Alt diff](pic/01.jpg)
 
 ## **Other concepts**
