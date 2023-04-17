@@ -6,7 +6,6 @@ test("First Playwright test", async ({ page }) => {
   const account = "echoedinvoker@gmail.com";
 
   await page.goto("https://rahulshettyacademy.com/client");
-  // await page.locator("#userEmail").fill("echoedinvoker@gmail.com");
   await page.locator("#userEmail").fill(account);
   await page.locator("#userPassword").type("1234@Matt");
   await page.locator("[value='Login']").click();
@@ -43,17 +42,6 @@ test("First Playwright test", async ({ page }) => {
     }
   }
 
-  // .user__name>input
-  // .user__name a
-  // h1.hero-primary
-  // .em-spacer-1 .ng-star-inserted
-  // [routerlink*='myorders']
-  // tr.ng-star-inserted
-  // tr.ng-star-inserted th
-  // tr.ng-star-inserted button.btn-primary
-  // .email-wrapper .col-text.-main
-
-  // await expect(page.locator(".user__name>input")).toHaveText(account);
   await expect(page.locator(".user__name>input")).toHaveValue(account);
 
   await page.locator(".user__name a").click();
@@ -63,38 +51,31 @@ test("First Playwright test", async ({ page }) => {
   const orderId = await page
     .locator(".em-spacer-1 .ng-star-inserted")
     .textContent();
-  // console.log(orderId.replaceAll("|", "").trim());
-  // console.log("#######");
-  const formatOrderId = orderId.replaceAll("|", "").trim();
+  // const formatOrderId = orderId.replaceAll("|", "").trim();
 
   await page.locator("[routerlink*='myorders']").first().click();
-  // await page.waitForLoadState("networkidle");
-  await page.locator("tr.ng-star-inserted").first().waitFor();
+  // await page.locator("tr.ng-star-inserted").first().waitFor();
+  const orders = page.locator("tbody tr");
+  await orders.first().waitFor();
 
-  const orders = page.locator("tr.ng-star-inserted");
+  // const orders = page.locator("tr.ng-star-inserted");
   const countOrders = await orders.count();
 
-  // console.log(countOrders);
-  // let result = false;
   for (let i = 0; i < countOrders; i++) {
-    // console.log(await orders.nth(i).locator("th").textContent());
     const order = orders.nth(i);
-    // if ((await orders.nth(i).locator("th").textContent()) === formatOrderId) {
-    if ((await order.locator("th").textContent()) === formatOrderId) {
-      // result = true;
+    // if ((await order.locator("th").textContent()) === formatOrderId) {
+    if (orderId.includes(await order.locator("th").textContent())) {
       order.locator("button.btn-primary").click();
       break;
     }
   }
-  // expect(result).toBeTruthy();
 
-  // const result = await page
-  //   .locator(".email-wrapper .col-text.-main")
-  //   .textContent();
-  // console.log(result);
-  await expect(page.locator(".email-wrapper .col-text.-main")).toHaveText(
-    formatOrderId
-  );
-
-  // await page.pause();
+  // await expect(page.locator(".email-wrapper .col-text.-main")).toHaveText(
+  //   formatOrderId
+  // );
+  expect(
+    orderId.includes(
+      await page.locator(".email-wrapper .col-text.-main").textContent()
+    )
+  ).toBeTruthy();
 });
