@@ -1,5 +1,7 @@
 import { expect, request, test } from "@playwright/test";
 
+let token;
+
 test.beforeAll(async () => {
   const apiContext = await request.newContext();
   const loginResponse = await apiContext.post(
@@ -13,23 +15,24 @@ test.beforeAll(async () => {
   );
   expect(loginResponse.ok()).toBeTruthy();
   const loginResponseObject = await loginResponse.json();
-  const token = loginResponseObject.token;
-  console.log(token);
+  token = loginResponseObject.token;
 });
 
-// test.beforeEach(async () => {})
-
 test("First Playwright test", async ({ page }) => {
+  page.addInitScript((value) => {
+    window.localStorage.setItem("token", value);
+  }, token);
+
   const cardBody = page.locator(".card-body");
   const productName = "adidas original";
   const account = "echoedinvoker@gmail.com";
 
   await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("#userEmail").fill(account);
-  await page.locator("#userPassword").type("1234@Matt");
-  await page.locator("[value='Login']").click();
-
-  await page.waitForLoadState("networkidle");
+  // await page.locator("#userEmail").fill(account);
+  // await page.locator("#userPassword").type("1234@Matt");
+  // await page.locator("[value='Login']").click();
+  //
+  // await page.waitForLoadState("networkidle");
 
   const count = await cardBody.count();
   for (let i = 0; i < count; i++) {
