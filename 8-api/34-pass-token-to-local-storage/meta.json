@@ -1,18 +1,25 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "api"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/8-api/34-pass-token-to-local-storage/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+  "section": "34. Parsing API response & passing token to browser local storage with Playwright",
+  "video.length": 10,
+  "time.comsuming": 31,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-18T02:19:59Z",
+  "tag": [
+    "Playwright",
+    "api",
+    "inject",
+    "addInitScript",
+    "javascript",
+    "init",
+    "storage",
+    "local",
+    "token"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110780#content",
+  "description": "Explain how to inject token to local storage of browser."
 }
