@@ -1,4 +1,23 @@
-import { expect, test } from "@playwright/test";
+import { expect, request, test } from "@playwright/test";
+
+test.beforeAll(async () => {
+  const apiContext = await request.newContext();
+  const loginResponse = await apiContext.post(
+    "https://rahulshettyacademy.com/api/ecom/auth/login",
+    {
+      data: {
+        userEmail: "echoedinvoker@gmail.com",
+        userPassword: "1234@Matt",
+      },
+    }
+  );
+  expect(loginResponse.ok()).toBeTruthy();
+  const loginResponseObject = await loginResponse.json();
+  const token = loginResponseObject.token;
+  console.log(token);
+});
+
+// test.beforeEach(async () => {})
 
 test("First Playwright test", async ({ page }) => {
   const cardBody = page.locator(".card-body");

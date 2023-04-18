@@ -1,18 +1,24 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/8-api/32-importance-of-api-integration-calls/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "32. understanding the importance of API integration calls for Web tests",
+    "video.length": 11,
+    "time.comsuming": 43,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-17T17:57:42Z",
     "tag": [
         "Playwright",
-        "api"
+        "api",
+        "concept",
+        "token",
+        "storage",
+        "browser",
+        "walkthrough",
+        "important"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110732#content",
+    "description": "Explain why API integration calls for Web tests is important."
 }
