@@ -1,18 +1,24 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/8-api/35-place-n-bypass-api/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "35. Place order API to create order and bypass the flow in UI with mix of web/API",
+    "video.length": 9,
+    "time.comsuming": 36,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-18T03:02:17Z",
     "tag": [
         "Playwright",
-        "api"
+        "api",
+        "need",
+        "observe",
+        "network",
+        "order",
+        "token",
+        "header"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110790#content",
+    "description": "Explains how the browser uses the API to communicate with the backend and get the order id when we order a product."
 }

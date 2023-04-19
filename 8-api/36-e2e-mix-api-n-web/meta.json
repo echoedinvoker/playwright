@@ -1,0 +1,22 @@
+{
+    "category-v2.single.toJob": "Playwright",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/8-api/35-place-n-bypass-api/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "section": "36. End to end validation with mix of API & Web concepts - Reduce test time",
+    "video.length": 14,
+    "time.comsuming": 50,
+    "lecturer.name.first": "Rahul",
+    "lecturer.name.last": "Shetty",
+    "register.time": "2023-04-18T05:23:00Z",
+    "tag": [
+        "Playwright",
+        "api",
+        "mix",
+        "token",
+        "order",
+        "id"
+    ],
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110810#content",
+    "description": "Use API call to replace UI test of order product to increase the stability and speed of testing."
+}
