@@ -1,18 +1,23 @@
 {
-    "category-v2.single.toJob": "Playwright",
-    "git.link": "",
-    "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
-    "lecturer.name.first": "Rahul",
-    "lecturer.name.last": "Shetty",
-    "register.time": "",
-    "tag": [
-        "Playwright",
-        "api"
-    ],
-    "video.link": "",
-    "description": ""
+  "category-v2.single.toJob": "Playwright",
+  "git.link": "https://github.com/echoedinvoker/playwright/blob/master/8-api/37-refactor/memo.md",
+  "course": "Playwright JS Automation Testing from Scratch with Framework",
+  "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+  "section": "37. Refactor API calls from utils folder and isolate from Web test time",
+  "video.length": 15,
+  "time.comsuming": 70,
+  "lecturer.name.first": "Rahul",
+  "lecturer.name.last": "Shetty",
+  "register.time": "2023-04-19T06:38:03Z",
+  "tag": [
+    "Playwright",
+    "api",
+    "refactor",
+    "util",
+    "api",
+    "class",
+    "constructor"
+  ],
+  "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110824#content",
+  "description": "Refactor API calls to another file."
 }

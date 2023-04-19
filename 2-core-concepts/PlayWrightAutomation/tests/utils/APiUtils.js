@@ -14,7 +14,10 @@ export class APIUtils {
     return loginResponseObject.token;
   }
 
-  async createOrder(orders, token) {
+  // async createOrder(orders, token) {
+  async createOrder(orders) {
+    const response = {}
+    response.token = await this.getToken()
     const orderRequest = await this.apiContext.post(
       "https://rahulshettyacademy.com/api/ecom/order/create-order",
       {
@@ -23,13 +26,15 @@ export class APIUtils {
         },
         headers: {
           // Authorization: token,
-          Authorization: token,
+          Authorization: response.token,
           "Content-Type": "application/json",
         },
       }
     );
     const orderRequestObject = await orderRequest.json();
-    return orderRequestObject.orders[0];
+    // return orderRequestObject.orders[0];
+    response.orderId = orderRequestObject.orders[0];
+    return response
   }
 }
 
