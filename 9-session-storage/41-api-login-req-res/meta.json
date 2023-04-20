@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/41-api-login-req-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "41. Detailed view of Trace viewer to understand the API logging req/resonses",
+    "video.length": 4,
+    "time.comsuming": 23,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-20T01:59:04Z",
     "tag": [
-        "Playwright",
+        "Playwright","api","network","trace"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110884#content",
+    "description": "Another way to observe API call (by trace)."
 }
