@@ -1,7 +1,6 @@
 const config = {
   testDir: "./tests",
-  // timeout: 30 * 10000,
-  timeout: 100 * 10000,
+  timeout: 30 * 10000,
   expect: {
     timeout: 5000,
   },
@@ -10,7 +9,8 @@ const config = {
     browserName: "chromium",
     headless: false,
     screenshot: "on",
-    trace: "retain-on-failure", // off, on
+    // trace: "retain-on-failure", // off, on
+    trace: "on", // off, on
   },
 };
 
