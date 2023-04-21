@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/42-intercept-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "43. Understand the playwright route method and its parameters in intercepting - demo",
+    "video.length": 18,
+    "time.comsuming": 136,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-21T03:28:53Z",
     "tag": [
-        "Playwright",
+        "Playwright","intercept","route","mock","intercept","response","body","fake","wait","bug"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110900#content",
+    "description": "To intercept the response, insert a fake body to test the no order scenario."
 }
