@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/42-intercept-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "42. How to intercept Network response calls with Playwright route method",
+    "video.length": 10,
+    "time.comsuming": 26,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-20T12:07:05Z",
     "tag": [
-        "Playwright",
+        "Playwright","intercept","mock","request","response","zero","order"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110892#content",
+    "description": "Explain the difficulties of testing scenario of responsing zero item data and the power of Playwright."
 }

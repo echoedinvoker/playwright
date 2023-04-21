@@ -1,4 +1,4 @@
-import { expect, request, test } from "@playwright/test";
+import { request, test } from "@playwright/test";
 import { APIUtils } from "./utils/APiUtils";
 
 let response;
@@ -13,6 +13,7 @@ const orders = [
               productOrderedId: "6262e990e26b7e1a10e89bfa",
             },
           ]
+const fakePlayloadOrders = { data: [], message: "No Orders" }
 
 test.beforeAll(async () => {
   const apiContext = await request.newContext();
@@ -27,23 +28,38 @@ test("First Playwright test", async ({ page }) => {
   }, response.token);
 
   await page.goto("https://rahulshettyacademy.com/client");
-  await page.locator("[routerlink*='myorders']").first().click();
-  const orders = page.locator("tbody tr");
-  await orders.first().waitFor();
 
-  const countOrders = await orders.count();
-
-  for (let i = 0; i < countOrders; i++) {
-    const order = orders.nth(i);
-    if (response.orderId.includes(await order.locator("th").textContent())) {
-      order.locator("button.btn-primary").click();
-      break;
+  await page.route('https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/643b6ceb568c3e9fb152f96d',
+    async route => {
+      const response = await page.request.fetch(route.request())
+      let body = JSON.stringify(fakePlayloadOrders)
+      route.fulfill({
+        response,
+        body
+      })
     }
-  }
+  )
 
-  expect(
-    response.orderId.includes(
-      await page.locator(".email-wrapper .col-text.-main").textContent()
-    )
-  ).toBeTruthy();
+  // await page.pause()
+  await page.locator("[routerlink*='myorders']").first().click();
+  await page.waitForResponse('https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/643b6ceb568c3e9fb152f96d')
+  console.log(await page.locator(".mt-4").textContent())
+  // const orders = page.locator("tbody tr");
+  // await orders.first().waitFor();
+
+  // const countOrders = await orders.count();
+
+  // for (let i = 0; i < countOrders; i++) {
+  //   const order = orders.nth(i);
+  //   if (response.orderId.includes(await order.locator("th").textContent())) {
+  //     order.locator("button.btn-primary").click();
+  //     break;
+  //   }
+  // }
+
+  // expect(
+  //   response.orderId.includes(
+  //     await page.locator(".email-wrapper .col-text.-main").textContent()
+  //   )
+  // ).toBeTruthy();
 });
