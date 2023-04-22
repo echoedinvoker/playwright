@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/45-abort-network-call/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "45. How to abort the Network calls with Playwright - Examples",
+    "video.length": 15,
+    "time.comsuming": 63,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-22T02:37:38Z",
     "tag": [
-        "Playwright",
+        "Playwright","abort","route","css","image","api","print","console","request","response"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110920#content",
+    "description": "Explain how to abort API response and print request/response infomations in the console."
 }

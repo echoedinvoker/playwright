@@ -2,7 +2,7 @@
     "category-v2.single.toJob": "Playwright",
     "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
+    "chapter": "10. Perform Visual Testing with Playwright Algorithms",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -10,7 +10,7 @@
     "lecturer.name.last": "Shetty",
     "register.time": "",
     "tag": [
-        "Playwright",
+        "Playwright","visual"
     ],
     "video.link": "",
     "description": ""

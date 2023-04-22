@@ -1,19 +1,11 @@
-import { test } from "@playwright/test";
+import { expect, test } from "@playwright/test";
 
 test("Popup test", async ({ page }) => {
   await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
-
-  page.on("dialog", (d) => d.accept());
-  await page.locator("#confirmbtn").click();
-
-  // #courses-iframe
-  // [href*='lifetime-access']
-  // .text h2 span
-  await page.locator("#courses-iframe").hover();
-  const framePage = page.frameLocator("#courses-iframe");
-  await framePage.locator("li a[href*='lifetime-access']:visible").click();
-  const subscribers = await framePage.locator(".text h2 span").textContent();
-  console.log(subscribers);
-
-  //await page.pause();
+  await expect(page.locator("#displayed-text")).toBeVisible()
+  await page.locator("#hide-textbox").click()
+  await expect(page.locator("#displayed-text")).toBeHidden()
+  
+  await page.locator("fieldset:has(legend:has-text('Element Displayed Example'))").screenshot({ path: 'screenshot.png' })
 });
+
