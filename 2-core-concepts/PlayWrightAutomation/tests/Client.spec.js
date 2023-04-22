@@ -1,59 +1,38 @@
-import { request, test } from "@playwright/test";
-import { APIUtils } from "./utils/APiUtils";
-
-let response;
-
-const loginPayload = {
-          userEmail: "echoedinvoker@gmail.com",
-          userPassword: "1234@Matt",
-        }
-const orders = [
-            {
-              country: "Taiwan, Province of China",
-              productOrderedId: "6262e990e26b7e1a10e89bfa",
-            },
-          ]
-const fakePlayloadOrders = { data: [], message: "No Orders" }
-
-const url = 'https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=6441f6ef568c3e9fb15824fb'
-
-test.beforeAll(async () => {
-  const apiContext = await request.newContext();
-  const apiUtils = new APIUtils(apiContext, loginPayload)
-
-  response = await apiUtils.createOrder(orders)
-});
+import { expect, test } from "@playwright/test";
+import { LoginPage } from "../pageobjects/LoginPage";
 
 test("First Playwright test", async ({ page }) => {
-  page.addInitScript((value) => {
-    window.localStorage.setItem("token", value);
-  }, response.token);
+  const email = "echoedinvoker@gmail.com"
+  const password = "1234@Matt"
+  const productName = "adidas original"
 
-  await page.goto("https://rahulshettyacademy.com/client");
+  const products = page.locator(".card-body")
 
-  await page.route('https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/643b6ceb568c3e9fb152f96d',
-    async route => {
-      const response = await page.request.fetch(route.request())
-      route.fulfill({
-        response,
-      })
+  // Login page
+  // await page.goto("https://rahulshettyacademy.com/client");
+  // await page.locator("#userEmail").fill(email)
+  // await page.locator("#userPassword").fill(password)
+  // await page.locator("[value='Login']").click()
+  const loginPage = new LoginPage(page)
+  loginPage.goTo()
+  loginPage.validLogin(email, password)
+
+  await page.waitForLoadState("networkidle")
+
+  // Dashboard page - add a specific product to the cart
+  const count = await products.count()
+  for (let i=0; i<count; i++) {
+    if (await products.nth(i).locator("b").textContent() === productName) {
+      await products.nth(i).locator("text= Add To Cart").click()
+      break
     }
-  )
+  }
 
-  await page.locator("[routerlink*='myorders']").first().click();
-  await page.waitForResponse('https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/643b6ceb568c3e9fb152f96d')
-  
-  const orderId = await page.locator("th[scope='row']").first().textContent()
+  await page.locator("[routerlink*='cart']").click();
+  await page.locator("div li").first().waitFor()
 
-
-  await page.route(`https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=${orderId}`,
-    route => {
-      route.continue({
-        url
-      })
-    }
-  )
-
-  await page.pause()
-  await page.locator("button:has-text('View')").first().click()
+  // Cart page - check if that product in the cart
+  const bool = await page.locator(`h3:has-text('${productName}')`).isVisible()
+  expect(bool).toBeTruthy();
 });
+

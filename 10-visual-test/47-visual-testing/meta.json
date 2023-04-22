@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/46-capture-screenshots/memo.md",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/47-visual-testing/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "10. Perform Visual Testing with Playwright Algorithms",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "47. What is visual testing & How to perform it using Playwright",
+    "video.length": 9,
+    "time.comsuming": 44,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-22T05:19:48Z",
     "tag": [
-        "Playwright","visual"
+        "Playwright","visual","screenshot","compare","match","pixel","image","align"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110986#content",
+    "description": "Introducing visual test - a test done by comparing pictures."
 }

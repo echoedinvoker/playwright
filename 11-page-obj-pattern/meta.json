@@ -1,8 +1,8 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/46-capture-screenshots/memo.md",
+    "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
-    "chapter": "10. Perform Visual Testing with Playwright Algorithms",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
     "section": "",
     "video.length": ,
     "time.comsuming": ,
@@ -10,7 +10,7 @@
     "lecturer.name.last": "Shetty",
     "register.time": "",
     "tag": [
-        "Playwright","visual"
+        "Playwright"
     ],
     "video.link": "",
     "description": ""
