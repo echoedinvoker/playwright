@@ -1,12 +1,16 @@
-import { expect, test } from "@playwright/test";
+import { expect, request, test } from "@playwright/test";
 
-test("First Playwright test", async ({ page }) => {
+test.only("First Playwright test", async ({ page }) => {
   const username = page.locator("#username");
   const password = page.locator("#password");
   const signInBtn = page.locator("#signInBtn");
   const cardTitles = page.locator(".card-title a");
 
   await page.goto("https://rahulshettyacademy.com/loginpagePractise/");
+
+  page.on('request', request => console.log(request.url()))
+  page.on('response', response => console.log(response.url(), response.status()))
+
   await username.type("matt");
   await password.type("123");
   await signInBtn.click();

@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/44-intercept-request-call/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "44. How to intercept Network request calls with Playwright - Example demo",
+    "video.length": 18,
+    "time.comsuming": 90,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-21T06:05:26Z",
     "tag": [
-        "Playwright",
+        "Playwright","route","listener","request","url","endpoint","mock","fake","heck"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110906#content",
+    "description": "Explain how to intercept the request, provide a fake request endpoint URL to the backend."
 }
