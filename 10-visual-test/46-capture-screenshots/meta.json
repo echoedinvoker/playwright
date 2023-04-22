@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/46-capture-screenshots/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "10. Perform Visual Testing with Playwright Algorithms",
     "section": "46. Capture Screenshots with Playwright on page & partial Element level - Demo",
     "video.length": 6,
-    "time.comsuming": ,
+    "time.comsuming": 63,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-22T04:09:52Z",
     "tag": [
-        "Playwright","visual"
+        "Playwright","visual","capture","screenshot","partial","evident"
     ],
     "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110968#content",
-    "description": ""
+    "description": "Explain how to capure Screenshots in the test."
 }
