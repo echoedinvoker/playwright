@@ -10,6 +10,8 @@
 
 ![Alt constructor for defining locators](pic/03.jpg)
 
+- constructor cannot use asynchronous techniques.
+
 ## **others to methods**
 
 ![Alt goTo](pic/04.jpg)
@@ -27,3 +29,9 @@
 ![Alt fix the problem: page is not global in class](pic/08.jpg)
 
 ![Alt test pass](pic/09.jpg)
+
+## **migrate waitForLoadState**
+
+![Alt ](pic/10.jpg)
+
+- Because this must be done immediately after clicking the login button, it should also be incorporated into the validLogin method of the class.

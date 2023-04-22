@@ -14,6 +14,7 @@ export class LoginPage {
     await this.email.fill(mail)
     await this.password.fill(password)
     await this.login.click()
+    await this.page.waitForLoadState("networkidle")
   }
 }
 

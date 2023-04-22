@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/48-page-object-pattern/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "48. What is page object pattern & Importance of its implementation",
+    "video.length": 14,
+    "time.comsuming": 79,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-22T06:52:58Z",
     "tag": [
-        "Playwright"
+        "Playwright","object","class","refactor","page","constructor"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111002#content",
+    "description": "Use class and individual js files to refactor the codes in the test file for a specific page."
 }

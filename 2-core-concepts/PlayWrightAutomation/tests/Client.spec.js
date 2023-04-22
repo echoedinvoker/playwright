@@ -17,7 +17,7 @@ test("First Playwright test", async ({ page }) => {
   loginPage.goTo()
   loginPage.validLogin(email, password)
 
-  await page.waitForLoadState("networkidle")
+  // await page.waitForLoadState("networkidle")
 
   // Dashboard page - add a specific product to the cart
   const count = await products.count()
