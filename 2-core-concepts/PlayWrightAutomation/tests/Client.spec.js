@@ -1,11 +1,14 @@
-import { expect, test } from "@playwright/test";
+// import { expect, test } from "@playwright/test";
+import { expect } from "@playwright/test";
+import { test } from "../utils/test-base";
 import { POManager } from "../pageobjects/POManager";
 const dataSet = JSON.parse(JSON.stringify(require("../utils/placeordersTestData.json")))
 
 
-for (const data of dataSet) {
+// for (const data of dataSet) {
   // test("First Playwright test", async ({ page }) => {
-  test(`Client App login for ${data.productName}`, async ({ page }) => {
+  // test(`Client App login for ${data.productName}`, async ({ page }) => {
+  test(`Client App login`, async ({ page, data }) => {
 
     const poManager = new POManager(page)
     const loginPage = poManager.getLoginPage()
@@ -23,7 +26,7 @@ for (const data of dataSet) {
     const bool = await page.locator(`h3:has-text('${data.productName}')`).isVisible()
     expect(bool).toBeTruthy();
   });
-}
+// }
 
 
 
