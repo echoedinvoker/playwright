@@ -1,6 +1,6 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/49-page-obj-for-e2e-1/memo.md",
+    "git.link": "",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
     "section": "",
@@ -8,10 +8,10 @@
     "time.comsuming": ,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "2023-04-23T03:17:21Z",
+    "register.time": "",
     "tag": [
         "Playwright"
     ],
-    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111018#content",
+    "video.link": "",
     "description": ""
 }

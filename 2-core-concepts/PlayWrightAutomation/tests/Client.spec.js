@@ -1,31 +1,23 @@
 import { expect, test } from "@playwright/test";
-import { LoginPage } from "../pageobjects/LoginPage";
-import { DashboardPage } from "../pageobjects/DashboardPage";
+import { POManager } from "../pageobjects/POManager";
+// import { LoginPage } from "../pageobjects/LoginPage";
+// import { DashboardPage } from "../pageobjects/DashboardPage";
 
 test("First Playwright test", async ({ page }) => {
   const email = "echoedinvoker@gmail.com"
   const password = "1234@Matt"
   const productName = "adidas original"
 
-  const products = page.locator(".card-body")
+  const poManager = new POManager(page)
+  const loginPage = poManager.getLoginPage()
+  const dashboardPage = poManager.getDashboardPage()
 
   // Login page
-  const loginPage = new LoginPage(page)
+  // const loginPage = new LoginPage(page)
   await loginPage.goTo()
   await loginPage.validLogin(email, password)
 
-  // Dashboard page - add a specific product to the cart
-  // const count = await products.count()
-  // for (let i=0; i<count; i++) {
-  //   if (await products.nth(i).locator("b").textContent() === productName) {
-  //     await products.nth(i).locator("text= Add To Cart").click()
-  //     break
-  //   }
-  // }
-
-  // await page.locator("[routerlink*='cart']").click();
-  // await page.locator("div li").first().waitFor()
-  const dashboardPage = new DashboardPage(page)
+  // const dashboardPage = new DashboardPage(page)
   await dashboardPage.addProductToCart(productName)
   await dashboardPage.goToOrders()
 
