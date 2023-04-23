@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/52-drive-data-by-ex-json/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "52. How to drive the data from external json files to playwright tests",
+    "video.length": 10,
+    "time.comsuming": 63,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-23T18:09:07Z",
     "tag": [
-        "Playwright"
+        "Playwright","data","refactor","external","json"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111046#content",
+    "description": "Refactor data in the test file to dedicated json file."
 }

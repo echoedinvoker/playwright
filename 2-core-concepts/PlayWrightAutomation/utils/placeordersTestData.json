@@ -1,5 +1,12 @@
-{
-  "username": "echoedinvoker@gmail.com",
-  "password": "1234@Matt",
-  "productName": "adidas original"
-}
+[
+  {
+    "username": "echoedinvoker@gmail.com",
+    "password": "1234@Matt",
+    "productName": "adidas original"
+  },
+  {
+    "username": "echoedinvoker@gmail.com",
+    "password": "1234@Matt",
+    "productName": "iphone 13 pro"
+  }
+]

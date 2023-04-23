@@ -2,25 +2,28 @@ import { expect, test } from "@playwright/test";
 import { POManager } from "../pageobjects/POManager";
 const dataSet = JSON.parse(JSON.stringify(require("../utils/placeordersTestData.json")))
 
-test("First Playwright test", async ({ page }) => {
-  // const email = "echoedinvoker@gmail.com"
-  // const password = "1234@Matt"
-  // const productName = "adidas original"
 
-  const poManager = new POManager(page)
-  const loginPage = poManager.getLoginPage()
-  const dashboardPage = poManager.getDashboardPage()
+for (const data of dataSet) {
+  // test("First Playwright test", async ({ page }) => {
+  test(`Client App login for ${data.productName}`, async ({ page }) => {
 
-  // Login page
-  await loginPage.goTo()
-  await loginPage.validLogin(dataSet.username, dataSet.password)
+    const poManager = new POManager(page)
+    const loginPage = poManager.getLoginPage()
+    const dashboardPage = poManager.getDashboardPage()
 
-  // const dashboardPage = new DashboardPage(page)
-  await dashboardPage.addProductToCart(dataSet.productName)
-  await dashboardPage.goToOrders()
+    // Login page
+    await loginPage.goTo()
+    await loginPage.validLogin(data.username, data.password)
 
-  // Cart page - check if that product in the cart
-  const bool = await page.locator(`h3:has-text('${dataSet.productName}')`).isVisible()
-  expect(bool).toBeTruthy();
-});
+    // const dashboardPage = new DashboardPage(page)
+    await dashboardPage.addProductToCart(data.productName)
+    await dashboardPage.goToOrders()
+
+    // Cart page - check if that product in the cart
+    const bool = await page.locator(`h3:has-text('${data.productName}')`).isVisible()
+    expect(bool).toBeTruthy();
+  });
+}
+
+
 
