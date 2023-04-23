@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { POManager } from "../pageobjects/POManager";
-const dataSet = JSON.parse(require("../utils/placeordersTestData.json"))
+const dataSet = JSON.parse(JSON.stringify(require("../utils/placeordersTestData.json")))
 
 
 test("Client App login", async ({ page }) => {
