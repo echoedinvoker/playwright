@@ -3,15 +3,15 @@
     "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/49-page-obj-for-e2e-1/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "49. Creating Page Object for end to end Script - Part 1",
+    "video.length": 11,
+    "time.comsuming": 50,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
     "register.time": "2023-04-23T03:17:21Z",
     "tag": [
-        "Playwright"
+        "Playwright","refactor","class","page","object"
     ],
     "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111018#content",
-    "description": ""
+    "description": "Refactore dashboard page related codes to an individual file/class."
 }

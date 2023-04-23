@@ -1,17 +1,17 @@
 {
     "category-v2.single.toJob": "Playwright",
-    "git.link": "",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/50-page-objs-manager/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
-    "section": "",
-    "video.length": ,
-    "time.comsuming": ,
+    "section": "50. Creating Page object and action methods for end to end Script - Part 2",
+    "video.length": 8,
+    "time.comsuming": 40,
     "lecturer.name.first": "Rahul",
     "lecturer.name.last": "Shetty",
-    "register.time": "",
+    "register.time": "2023-04-23T04:26:04Z",
     "tag": [
-        "Playwright"
+        "Playwright","e2e","refactor","manager","page","class"
     ],
-    "video.link": "",
-    "description": ""
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111026#content",
+    "description": "Create a new file and class to be reopsitory of pages."
 }
