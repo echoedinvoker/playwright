@@ -16,6 +16,29 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/28-teacher-answer/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
+    "lecture": "28. Dynamically find the order from OderHistory page using Playwright Script logic",
+    "chapterPath": "6-end-to-end",
+    "lecturePath": "28-teacher-answer",
+    "length": 16,
+    "timeSpend": 26,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "end",
+    "practice",
+    "exercie",
+    "compare",
+    "answer",
+    "difference"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110650#content",
+    "description": "Compare the differences between our test scripts and those written by our teachers."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/5-tools/20-inspector-n-debug/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "5. Learn Playwright Inspectors, Trace Viewsers & Codegen tools with Demo examples",
