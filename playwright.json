@@ -16,6 +16,30 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/32-importance-of-api-integration-calls/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "lecture": "32. understanding the importance of API integration calls for Web tests",
+    "chapterPath": "8-api",
+    "lecturePath": "32-importance-of-api-integration-calls",
+    "length": 11,
+    "timeSpend": 43,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "api",
+        "concept",
+        "token",
+        "storage",
+        "browser",
+        "walkthrough",
+        "important"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110732#content",
+    "description": "Explain why API integration calls for Web tests is important."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/52-drive-data-by-ex-json/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
