@@ -16,6 +16,31 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/34-pass-token-to-local-storage/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "lecture": "34. Parsing API response & passing token to browser local storage with Playwright",
+    "chapterPath": "8-api",
+    "lecturePath": "34-pass-token-to-local-storage",
+    "length": 10,
+    "timeSpend": 31,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "api",
+    "inject",
+    "addInitScript",
+    "javascript",
+    "init",
+    "storage",
+    "local",
+    "token"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110780#content",
+    "description": "Explain how to inject token to local storage of browser."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/30-alert-popups/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
