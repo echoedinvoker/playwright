@@ -16,6 +16,30 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/35-place-n-bypass-api/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "lecture": "35. Place order API to create order and bypass the flow in UI with mix of web/API",
+    "chapterPath": "8-api",
+    "lecturePath": "35-place-n-bypass-api",
+    "length": 9,
+    "timeSpend": 36,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "api",
+        "need",
+        "observe",
+        "network",
+        "order",
+        "token",
+        "header"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110790#content",
+    "description": "Explains how the browser uses the API to communicate with the backend and get the order id when we order a product."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/11-locators/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
