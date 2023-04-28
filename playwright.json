@@ -16,6 +16,29 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/29-hidden-el/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
+    "lecture": "29. How to validate if element is hidden, displayed mode with Expect assertions",
+    "chapterPath": "7-dialog-frame-event",
+    "lecturePath": "29-hidden-el",
+    "length": 9,
+    "timeSpend": 40,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "display",
+        "hidden",
+        "visible",
+        "navigate",
+        "goBack",
+        "goForward"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110666#content",
+    "description": "Explain how to auto navigate page and check if element is hidden or visible on the page"
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/4-ui-comp/19-child-window-n-tabs/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
