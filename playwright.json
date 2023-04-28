@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/45-abort-network-call/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
+    "lecture": "45. How to abort the Network calls with Playwright - Examples",
+    "chapterPath": "9-session-storage",
+    "lecturePath": "45-abort-network-call",
+    "length": 15,
+    "timeSpend": 63,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","abort","route","css","image","api","print","console","request","response"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110920#content",
+    "description": "Explain how to abort API response and print request/response infomations in the console."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/41-api-login-req-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
