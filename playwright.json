@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/49-page-obj-for-e2e-1/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "lecture": "49. Creating Page Object for end to end Script - Part 1",
+    "chapterPath": "11-page-obj-pattern",
+    "lecturePath": "49-page-obj-for-e2e-1",
+    "length": 11,
+    "timeSpend": 50,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","refactor","class","page","object"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111018#content",
+    "description": "Refactore dashboard page related codes to an individual file/class."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/39-save-session-stoage/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
