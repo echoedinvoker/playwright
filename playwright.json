@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/7-test-annotation-n-async/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "2. Getting started with Playwright Automation Core concepts",
+    "lecture": "7. Importance of Playwright Test Annotation and async await understanding",
+    "chapterPath": "2-core-concepts",
+    "lecturePath": "7-test-annotation-n-async",
+    "length": 9,
+    "timeSpend": 28,
+    "teacher": "Rahul",
+    "tag": [
+      "Playwright","core","async","annotation"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109898#content",
+    "description": "Intro of Playwright test annotation, where we actually written test codes."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/53-parameterize-tests/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
