@@ -16,6 +16,32 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/13-locator-extract-multi-webel/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+    "lecture": "13. How to work with locators which extract multiple webelements in page",
+    "chapterPath": "3-basic-methods",
+    "lecturePath": "13-locator-extract-multi-webel",
+    "length": 11,
+    "timeSpend": 50,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "multiple",
+    "element",
+    "first",
+    "nth",
+    "textContent",
+    "refactor",
+    "locator"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110034?start=0#content",
+    "description": "Explain how to get a single element from a locator when it contains multiple elements."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/14-wait-mech-if-list-returned/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
