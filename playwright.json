@@ -16,6 +16,28 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/35-place-n-bypass-api/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "lecture": "36. End to end validation with mix of API & Web concepts - Reduce test time",
+    "chapterPath": "8-api",
+    "lecturePath": "36-e2e-mix-api-n-web",
+    "length": 14,
+    "timeSpend": 50,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "api",
+        "mix",
+        "token",
+        "order",
+        "id"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110810#content",
+    "description": "Use API call to replace UI test of order product to increase the stability and speed of testing."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/27-e2e-oderid/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
