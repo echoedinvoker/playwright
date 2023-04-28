@@ -16,6 +16,29 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/11-locators/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+    "lecture": "11. Locators supported by playwright and how to type into elements on page",
+    "chapterPath": "3-basic-methods",
+    "lecturePath": "11-locators",
+    "length": 13,
+    "timeSpend": 32,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "locator",
+    "element",
+    "action",
+    "automation"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110000#content",
+    "description": "Explains how to perform automatic login."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/42-intercept-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
