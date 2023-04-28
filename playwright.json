@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/52-drive-data-by-ex-json/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "lecture": "52. How to drive the data from external json files to playwright tests",
+    "chapterPath": "11-page-obj-pattern",
+    "lecturePath": "52-drive-data-by-ex-json",
+    "length": 10,
+    "timeSpend": 63,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","data","refactor","external","json"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111046#content",
+    "description": "Refactor data in the test file to dedicated json file."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/44-intercept-request-call/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
