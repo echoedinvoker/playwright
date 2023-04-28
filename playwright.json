@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/9-config/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "2. Getting started with Playwright Automation Core concepts",
+    "lecture": "9. Importance of Playwright configuration file and its details to run the tests",
+    "chapterPath": "2-core-concepts",
+    "lecturePath": "9-config",
+    "length": 14,
+    "timeSpend": 58,
+    "teacher": "Rahul",
+    "tag": [
+      "Playwright","core","config","order","only","npx","run"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109946#content",
+    "description": "Intro basic configuration of Playwright test, and how to run test."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/33-make-api-call/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
