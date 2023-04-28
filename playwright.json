@@ -16,6 +16,32 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/10-run-test-in-multiple-browsers/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "2. Getting started with Playwright Automation Core concepts",
+    "lecture": "10. Running Playwright tests in multiple browsers - chrome, Firefox 7 Webkit",
+    "chapterPath": "2-core-concepts",
+    "lecturePath": "10-run-test-in-multiple-browsers",
+    "length": 11,
+    "timeSpend": 46,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "core",
+        "browser",
+        "chrome",
+        "firefox",
+        "safari",
+        "webkit",
+        "assertion",
+        "info",
+        "page"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109964#content",
+    "description": "Explain and use assertion to do our first test."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/54-pass-test-data-by-fixture/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
