@@ -16,6 +16,32 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/25-add-assertion-for-action-perform/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
+    "lecture": "25. Add assertion for the actions performed and implement necessary Sync steps",
+    "chapterPath": "6-end-to-end",
+    "lecturePath": "25-add-assertion-for-action-perform",
+    "length": 18,
+    "timeSpend": 78,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "end",
+    "practice",
+    "exercie",
+    "waitfor",
+    "text",
+    "has-text",
+    "phuedo",
+    "class",
+    "assertion"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110610#content",
+    "description": "Use assertion instead of the naked eye to see if the added items are in the shopping cart."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/10-run-test-in-multiple-browsers/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "2. Getting started with Playwright Automation Core concepts",
