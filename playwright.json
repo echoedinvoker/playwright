@@ -16,6 +16,29 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/31-frames/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
+    "lecture": "31. How to handle & Automate frames with Playwright - Example",
+    "chapterPath": "7-dialog-frame-event",
+    "lecturePath": "31-frames",
+    "length": 12,
+    "timeSpend": 66,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "iframe",
+    "frame",
+    "visible",
+    "frameLactor",
+    "scroll",
+    "hover"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110680#content",
+    "description": "Explain how to automate frames with Playwright."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/28-teacher-answer/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
