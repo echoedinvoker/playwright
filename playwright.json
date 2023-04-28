@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/47-visual-testing/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "10. Perform Visual Testing with Playwright Algorithms",
+    "lecture": "47. What is visual testing & How to perform it using Playwright",
+    "chapterPath": "10-visual-test",
+    "lecturePath": "47-visual-testing",
+    "length": 9,
+    "timeSpend": 44,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","visual","screenshot","compare","match","pixel","image","align"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110986#content",
+    "description": "Introducing visual test - a test done by comparing pictures."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/15-wait-dynamic/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
