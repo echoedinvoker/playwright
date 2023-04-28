@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/40-debug-api/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
+    "lecture": "40. How to debug the API steps in script using Visual code debugging",
+    "chapterPath": "9-session-storage",
+    "lecturePath": "40-debug-api",
+    "length": 8,
+    "timeSpend": 35,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","debug","api","vscode","configuration","timeout"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110862#content",
+    "description": "Explain how to debug for API codes."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/31-frames/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
