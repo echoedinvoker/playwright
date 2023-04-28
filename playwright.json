@@ -16,6 +16,29 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/12-extract-text-n-assert/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+    "lecture": "12. Extracting the text from browser and inserting valid expect assesrtions in test",
+    "chapterPath": "3-basic-methods",
+    "lecturePath": "12-extract-text-n-assert",
+    "length": 13,
+    "timeSpend": 57,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "extract",
+    "incorrect",
+    "wait",
+    "lator"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110022#content",
+    "description": "Assertion of login result."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/50-page-objs-manager/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
