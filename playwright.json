@@ -16,6 +16,31 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/14-wait-mech-if-list-returned/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
+    "lecture": "14. Understanding how wait mechanism works if list of elements are returned",
+    "chapterPath": "3-basic-methods",
+    "lecturePath": "",
+    "length": 10,
+    "timeSpend": 28,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "methods",
+    "basic",
+    "wait",
+    "array",
+    "allTextContents",
+    "list",
+    "multiple",
+    "auto-wait"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110354#content",
+    "description": "Description of Playwright's auto-wait mechanism by the action allTextContents."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/32-importance-of-api-integration-calls/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
