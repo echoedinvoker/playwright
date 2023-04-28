@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/10-visual-test/46-capture-screenshots/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "10. Perform Visual Testing with Playwright Algorithms",
+    "lecture": "46. Capture Screenshots with Playwright on page & partial Element level - Demo",
+    "chapterPath": "10-visual-test",
+    "lecturePath": "46-capture-screenshots",
+    "length": 6,
+    "timeSpend": 63,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","visual","capture","screenshot","partial","evident"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110968#content",
+    "description": "Explain how to capure Screenshots in the test."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/34-pass-token-to-local-storage/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
