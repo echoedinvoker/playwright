@@ -16,6 +16,30 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/26-auto-suggestive-dropdown/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
+    "lecture": "26. Handling Auto suggestive dropdown options with playwright - Example",
+    "chapterPath": "6-end-to-end",
+    "lecturePath": "26-auto-suggestive-dropdown",
+    "length": 15,
+    "timeSpend": 54,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "end",
+        "practice",
+        "exercie",
+        "dropdown",
+        "suggestive",
+        "delay",
+        "type"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110616#content",
+    "description": "Explain how to handle suggestive dropdown box."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/12-extract-text-n-assert/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
