@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/53-parameterize-tests/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "lecture": "53. Implementing Parameterization in running tests with different data sets",
+    "chapterPath": "11-page-obj-pattern",
+    "lecturePath": "53-parameterize-tests",
+    "length": 8,
+    "timeSpend": 32,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","parameterize","multiple","for","loop","data"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111052#content",
+    "description": "Explain how to do the same test with multiple data sets."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/49-page-obj-for-e2e-1/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
