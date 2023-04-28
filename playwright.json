@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/42-intercept-res/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
+    "lecture": "42. How to intercept Network response calls with Playwright route method",
+    "chapterPath": "9-session-storage",
+    "lecturePath": "42-intercept-res",
+    "length": 10,
+    "timeSpend": 26,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","intercept","mock","request","response","zero","order"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110892#content",
+    "description": "Explain the difficulties of testing scenario of responsing zero item data and the power of Playwright."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/29-hidden-el/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
