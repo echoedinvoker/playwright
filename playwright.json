@@ -16,6 +16,31 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/4-ui-comp/17-select-radio-checkboxe-n-assertion/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
+    "lecture": "17. Selecting radio buttons, Checkboxes and implement expect assertions",
+    "chapterPath": "4-ui-comp",
+    "lecturePath": "17-select-radio-checkboxe-n-assertion",
+    "length": 7,
+    "timeSpend": 29,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "ui",
+    "assertion",
+    "radio",
+    "check",
+    "checkbox",
+    "isCheck",
+    "toBeChecked",
+    "toBeFalcy"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110444#content",
+    "description": "Explain the assertions about radio buttons and checkboxes."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/3-basic-methods/13-locator-extract-multi-webel/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "3. Playwright Basic methods for Web Automation testing with examples",
