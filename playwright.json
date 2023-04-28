@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/48-page-object-pattern/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "lecture": "48. What is page object pattern & Importance of its implementation",
+    "chapterPath": "11-page-obj-pattern",
+    "lecturePath": "48-page-object-pattern",
+    "length": 14,
+    "timeSpend": 79,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","object","class","refactor","page","constructor"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111002#content",
+    "description": "Use class and individual js files to refactor the codes in the test file for a specific page."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/7-test-annotation-n-async/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "2. Getting started with Playwright Automation Core concepts",
