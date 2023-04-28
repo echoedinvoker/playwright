@@ -16,6 +16,27 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/5-tools/20-inspector-n-debug/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "5. Learn Playwright Inspectors, Trace Viewsers & Codegen tools with Demo examples",
+    "lecture": "20. What is Playwright Inspector? And how to debug the playwright script",
+    "chapterPath": "5-tools",
+    "lecturePath": "20-inspector-n-debug",
+    "length": 9,
+    "timeSpend": 39,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright",
+        "tool",
+        "debug",
+        "inspector",
+        "picker"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110516#content",
+    "description": "Explain how to use debug mode and inspector."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/35-place-n-bypass-api/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
