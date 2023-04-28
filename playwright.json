@@ -16,6 +16,30 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/33-make-api-call/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
+    "lecture": "33. Playwright request method to make API calls and grab response - Example",
+    "chapterPath": "8-api",
+    "lecturePath": "33-make-api-call",
+    "length": 15,
+    "timeSpend": 40,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "api",
+    "request",
+    "response",
+    "json",
+    "data",
+    "call",
+    "post"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110768#content",
+    "description": "Explain how to make API call with Playwright."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/8-api/38-refactor-2/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "8. API Testing with Playwright and Build mix of Web & API tests",
