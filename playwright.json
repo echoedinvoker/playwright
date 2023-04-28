@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/2-core-concepts/6-create-npm-project/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "2. Getting started with Playwright Automation Core concepts",
+    "lecture": "6. Create npm Project and install Playwright dependencies for testing",
+    "chapterPath": "2-core-concepts",
+    "lecturePath": "6-create-npm-project",
+    "length": 7,
+    "timeSpend": 33,
+    "teacher": "Rahul",
+    "tag": [
+      "Playwright","core","project","files","init"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109880#content",
+    "description": "Create playwright project and intro the init files."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/42-intercept-res/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
