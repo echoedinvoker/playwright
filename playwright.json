@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/9-session-storage/39-save-session-stoage/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "9. Session storage & Intercepting Network request/response with Playwright",
+    "lecture": "39. How to save session storage using Playwright and inject into new Browser context",
+    "chapterPath": "9-session-storage",
+    "lecturePath": "39-save-session-stoage",
+    "length": 17,
+    "timeSpend": 109,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","storage","state","save","token","login"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110842#content",
+    "description": "Exlain how to save/inject lots of states of browser at once."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/26-auto-suggestive-dropdown/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
