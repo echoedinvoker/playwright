@@ -1,0 +1,49 @@
+[
+  {
+    "subject": "",
+    "linkGit": "",
+    "course": "",
+    "chapter": "",
+    "lecture": "",
+    "chapterPath": "",
+    "lecturePath": "",
+    "length": ,
+    "timeSpend": ,
+    "teacher": "",
+    "tag": ,
+    "linkUdemy": "",
+    "description": ""
+  },
+  {
+    "subject": "playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/1-intro/2-feature-2/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "1. Introduction to Playwright Automation & Course expectations",
+    "lecture": "2. Introduction to Playwright Feature - Part 2",
+    "chapterPath": "1-intro",
+    "lecturePath": "2-feature-2",
+    "length": 9,
+    "timeSpend": 27,
+    "teacher": "Rahul Shetty",
+    "tag": [
+      "Playwright","intro","feature"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31109810#content",
+    "description": "Intro of features of Playwright."
+  },
+  {
+    "subject": "playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/1-intro/1-feature-1/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "1. Introduction to Playwright Automation & Course expectations",
+    "lecture": "1. Introduction to Playwright Features - Part 1",
+    "chapterPath": "1-intro",
+    "lecturePath": "1-feature-1",
+    "length": 10,
+    "timeSpend": 34,
+    "teacher": "Rahul Shetty",
+    "tag": ["Playwright", "intro", "feature"],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31093884#content",
+    "description": "Intro to features of Playwright."
+  }
+]
