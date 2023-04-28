@@ -15,21 +15,6 @@
     "description": ""
   },
   {
-    "subject": "",
-    "linkGit": "",
-    "course": "",
-    "chapter": "",
-    "lecture": "",
-    "chapterPath": "",
-    "lecturePath": "",
-    "length": ,
-    "timeSpend": ,
-    "teacher": "",
-    "tag": ,
-    "linkUdemy": "",
-    "description": ""
-  },
-  {
     "subject": "playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/1-intro/2-feature-2/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
