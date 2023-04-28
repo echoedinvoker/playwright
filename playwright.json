@@ -16,6 +16,30 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/7-dialog-frame-event/30-alert-popups/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "7. Handling Web dialogs, Frames & Event listeners with Playwright",
+    "lecture": "30. How to automate Java/JavaScript Alert popups with Playwright",
+    "chapterPath": "7-dialog-frame-event",
+    "lecturePath": "30-alert-popups",
+    "length": 8,
+    "timeSpend": 33,
+    "teacher": "Rahul",
+    "tag": [
+    "Playwright",
+    "alert",
+    "java",
+    "dialog",
+    "popups",
+    "event",
+    "listener",
+    "on"
+  ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31110670#content",
+    "description": "Explain how to handle java dialog (use listener)."
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/6-end-to-end/24-dynamic-find-product/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "6. End to End Web Automation Practice Exercise with Playwright",
