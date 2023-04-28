@@ -1,0 +1,17 @@
+{
+    "category-v2.single.toJob": "Playwright",
+    "git.link": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/54-pass-test-data-by-fixture/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "section": "54. How to pass test data as fixture by extend test annotation behaviour",
+    "video.length": 9,
+    "time.comsuming": 45,
+    "lecturer.name.first": "Rahul",
+    "lecturer.name.last": "Shetty",
+    "register.time": "2023-04-28T18:02:08Z",
+    "tag": [
+        "Playwright","fixture","data","pass"
+    ],
+    "video.link": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111054#content",
+    "description": "pass test data as fixture"
+}

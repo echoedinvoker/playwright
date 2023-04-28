@@ -16,6 +16,23 @@
   },
   {
     "subject": "Playwright",
+    "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/11-page-obj-pattern/54-pass-test-data-by-fixture/memo.md",
+    "course": "Playwright JS Automation Testing from Scratch with Framework",
+    "chapter": "11. Page Object Patterns & Data driven Parameterization for Playwright Tests",
+    "lecture": "54. How to pass test data as fixture by extend test annotation behaviour",
+    "chapterPath": "11-page-obj-pattern",
+    "lecturePath": "54-pass-test-data-by-fixture",
+    "length": 9,
+    "timeSpend": 45,
+    "teacher": "Rahul",
+    "tag": [
+        "Playwright","fixture","data","pass"
+    ],
+    "linkUdemy": "https://www.udemy.com/course/playwright-tutorials-automation-testing/learn/lecture/31111054#content",
+    "description": "pass test data as fixture"
+  },
+  {
+    "subject": "Playwright",
     "linkGit": "https://github.com/echoedinvoker/playwright/blob/master/4-ui-comp/17-select-radio-checkboxe-n-assertion/memo.md",
     "course": "Playwright JS Automation Testing from Scratch with Framework",
     "chapter": "4. Handling UI Components(Dropdowns, Radio Buttons, Childwindows) with Playwright",
